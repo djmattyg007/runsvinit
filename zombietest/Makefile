@@ -12,7 +12,7 @@ test: .test.uptodate
 	touch $@
 
 runsvinit: ../*.go
-	env GOOS=linux GOARCH=amd64 $(GO) build -o $@ github.com/peterbourgon/runsvinit
+	env GOOS=linux GOARCH=amd64 $(GO) build -o $@ github.com/djmattyg007/runsvinit
 
 zombie: .build.uptodate
 	$(SUDO) docker run $(RMCONTAINER) -v $(shell pwd):/mount zombietest-build cc -Wall -Werror -o /mount/zombie /zombie.c

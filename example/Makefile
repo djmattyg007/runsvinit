@@ -2,7 +2,7 @@
 docker: runsvinit
 	docker build -t runsvinit-example .
 
-runsvinit: $GOPATH/bin/runsvinit
+runsvinit: ${GOPATH}/bin/runsvinit
 	cp $< $@
 
 $GOPATH/bin/runsvinit:

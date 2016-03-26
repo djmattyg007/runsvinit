@@ -11,4 +11,3 @@
 ## Test it works
 
 CTRL-C, or `docker stop example`.
-

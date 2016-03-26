@@ -21,4 +21,3 @@ reaping zombies. `make` builds and executes the test as follows:
    zombies, and after 1 second, verifies that zombies exist. Then, it launches
    a version of the container with runsvinit set to reap zombies, and after 1
    second, verifies that no zombies exist.
-

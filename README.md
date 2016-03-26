@@ -1,7 +1,7 @@
-# runsvinit [![Circle CI](https://circleci.com/gh/peterbourgon/runsvinit.svg?style=svg)](https://circleci.com/gh/peterbourgon/runsvinit)
+# runsvinit
 
 If you have a Docker container that's a collection of runit-supervised daemons, this process is suitable for use as the ENTRYPOINT.
-See [the example](https://github.com/peterbourgon/runsvinit/tree/master/example).
+See [the example](https://github.com/djmattyg007/runsvinit/tree/master/example).
 
 **Why not use runit(8) directly?**
 
